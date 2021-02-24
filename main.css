@@ -49,8 +49,39 @@ a{
 }
 
 .stages{
+    background-color: #181818;
+    color: white;
     display: flex;
     align-content: space-around;
     list-style: none;
+    text-align: center;
+}
+
+.contact-us{
+    background-color: #ffc400;
+    color: white;
+}
+
+.footer-elements{
+    display: flex;
+    align-content: space-between;
+}
+
+.footer-elements:nth-child(1){
+    width: 600px;
+}
+
+.footer-elements ul{
+    list-style: none;
+}
+
+footer, footer a{
+    background-color: #181818;
+    color: white;
+}
+
+#copyrights{
+    border-top: 1px solid black;
+    padding: 10px;
     text-align: center;
 }
